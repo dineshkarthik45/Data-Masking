@@ -1,14 +1,3 @@
-from django.contrib import admin
-from django.urls import path
-from deidentification import views
-
-urlpatterns = [
-    path("", views.index, name="index"),
-    path("detect/", views.detect, name="detect"),
-    path("free-text/", views.free_text, name="free-text"),
-    path("table/", views.table, name="table"),
-    path("document/", views.document, name="document"),
-    path("image/", views.image, name="image"),
-    path('textinput/', views.textinput, name='textinput'),
-    path('fileinput/', views.fileinput, name='fileinput'),
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:9453906794256ab970605fb25187cc5c54e9b2e8494c6193d5d9073b3782f07e
+size 534
